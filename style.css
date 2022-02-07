@@ -1,4 +1,74 @@
+/* entire webpage */
 body{
-    background-color: aqua;
+    background-color: aliceblue;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5% 2%;
+}
 
+/* outter box */
+.box{
+    background-color: #0d1a2d;
+    padding: 35px 0px;
+}
+
+/* inner box */
+.nft{
+    margin: 10% auto;
+    background-color: #a12919;
+    width: 20%;
+    height: 50%;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: #758cab;
+
+}
+
+.nft p{
+    padding-left: 5%;    
+}
+
+.nft div {
+    color: #758cab;
+}
+.nft h1 {
+    color:white;
+}
+
+
+/* image of the nft */
+#equal {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+
+}
+
+/* price text / image */
+#price {
+    color: #1ad6d8;
+    text-align: left;
+    border: 3px solid yellow;
+}
+
+/* time text / image */
+#time {
+    text-align: right;
+    border: 3px solid green;
+    
+}
+
+/* creator text / image */
+#creator {
+    text-align: left;
+    border: 3px solid pink;
+}
+
+#creator img {
+    object-fit: contain;
+    max-width: 10%;
+    border-image: 25px solid white;
+    border-radius: 5px;
 }
