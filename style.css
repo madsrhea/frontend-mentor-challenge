@@ -54,6 +54,7 @@ body {
     color: #758cab;
     font-size: 18px;
     float: center;
+    padding-bottom: 2%;
 
 }
 
@@ -106,12 +107,8 @@ body {
     padding-right: 30px;
 }
 
-#creator {
+/* #creator {
     border-top: 1px solid #758cab;
-
-}
-
-#creator {
     margin: 10%;;
 }
 
@@ -125,9 +122,19 @@ body {
     border: 2px solid white;
     border-radius: 25px;
     float: left;
-}
+} */
 
 .attribution {
     margin-top: 7%;
+
+}
+
+
+@media screen and (max-device-width: 800px) {
+   
+    body{
+        background-color: hsl(217, 54%, 11%);
+    }
+
 
 }
