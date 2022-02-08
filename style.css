@@ -17,7 +17,7 @@
 /* entire webpage */
 body {
     padding: 3%;
-    background-image: url(/images/desktop-background.png);
+    background-image: url(images/desktop-background.png);
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
