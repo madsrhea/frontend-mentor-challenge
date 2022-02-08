@@ -1,49 +1,70 @@
-/* entire webpage */
-body{
-    background-color: aliceblue;
+/* resetting & setting defaults */
+* {
+    padding: 0;
+    margin: 0;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 5% 2%;
+}
+
+/* entire webpage */
+body {
+    background-image: url(/images/desktop-background.png);
+    background-size: cover;
+    max-width: 1700px;
+    max-height: 950px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* outter box */
 .box{
-    background-color: #0d1a2d;
-    padding: 35px 0px;
+    background-color: hsl(217, 54%, 11%);
+    
 }
 
 /* inner box */
 .nft{
-    margin: 10% auto;
-    background-color: #a12919;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(216, 50%, 16%);
     width: 20%;
+    min-width: 375px;
     height: 50%;
+    min-height: 500px;
     border: 5px solid white;
-    border-radius: 5px;
+    border-radius: 25px;
     color: #758cab;
+    font-size: 18px;
 
 }
 
-.nft p{
-    padding-left: 5%;    
-}
-
-.nft div {
-    color: #758cab;
-}
-.nft h1 {
-    color:white;
-}
-
+/*** first we work from outside in ***/
+/*** now its from top to bottom ***/
 
 /* image of the nft */
 #equal {
+    padding: 25px;
     object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 85%;
 
+}
+
+/* nft name */
+.nft h1 {
+    color:white;
+    padding: 0;
+
+    border: 3px solid purple;
+}
+
+/* body text */
+.nft div {
+    color: #758cab;
+    border: 3px dotted red;
 }
 
 /* price text / image */
@@ -57,11 +78,12 @@ body{
 #time {
     text-align: right;
     border: 3px solid green;
-    
+    width: 150px;
 }
 
 /* creator text / image */
 #creator {
+    align-self: ;
     text-align: left;
     border: 3px solid pink;
 }
